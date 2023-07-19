@@ -31,12 +31,14 @@ Install the necessary dependencies:
 
 - Create a config.json file in the same directory as the main bot file.
 - Open the config.json file and enter the following content:
-```json{```
-```json "token": "YOUR_BOT_TOKEN",```
-```json "prefix": "!"```
-```json}`
+```json
+{
+  "token": "YOUR_BOT_TOKEN",
+  "prefix": "!"
+}
+```
 Replace YOUR_BOT_TOKEN with the bot token you obtained in the previous step.
-1. Customize the bot's behavior:
+4. Customize the bot's behavior:
 
 - Modify the event handlers and commands in the main bot file (bot.py) to fit your requirements.
 - You can add or remove commands by defining new functions and using the @bot.command() decorator.
